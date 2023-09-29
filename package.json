@@ -1,0 +1,34 @@
+{
+  "name": "salad-calculator",
+  "version": "0.1.0",
+  "description": "Algorithm to calculate word salads, written in Rust, ported to Node",
+  "main": "index.node",
+  "scripts": {
+    "build": "cargo-cp-artifact -nc index.node -- cargo build --message-format=json-render-diagnostics",
+    "build-debug": "npm run build --",
+    "build-release": "npm run build -- --release",
+    "install": "npm run build-release",
+    "test": "cargo test"
+  },
+  "author": "henryk1229",
+  "license": "ISC",
+  "devDependencies": {
+    "cargo-cp-artifact": "^0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henryk1229/salad-calculator.git"
+  },
+  "keywords": [
+    "wordsalad",
+    "word-salad",
+    "wrd-sld",
+    "rust",
+    "node",
+    "neon"
+  ],
+  "bugs": {
+    "url": "https://github.com/henryk1229/salad-calculator/issues"
+  },
+  "homepage": "https://github.com/henryk1229/salad-calculator#readme"
+}
