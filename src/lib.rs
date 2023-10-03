@@ -1,5 +1,10 @@
 use neon::prelude::*;
 
+// BRUTE FORCE approach?
+fn jumble_letters() -> Vector {
+    // TODO - generate every combo of letters and add to vector?
+}
+
 // generate a unique five letter word
 // test combinations of remaining letters for solutions
 // return array of solutions
